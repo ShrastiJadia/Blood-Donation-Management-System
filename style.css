@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* ===== DARK MEHROON MODE ===== */
+
+body {
+    background: linear-gradient(135deg, #121010, #5a1419);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f3e9db;
+}
+
+.card {
+    background: #1b1414;
+    padding: 32px;
+    border-radius: 14px;
+    width: 420px;
+    margin: 90px auto;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.7);
+    border-top: 6px solid #7b1e24;
+}
+
+h2 {
+    text-align: center;
+    color: #f3e9db;
+    margin-bottom: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 1px solid #8f3a40;
+    font-size: 14px;
+    background-color: #121010;
+    color: #f3e9db;
+}
+
+input::placeholder {
+    color: #c9b7a2;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #a62b32;
+    box-shadow: 0 0 0 2px rgba(166, 43, 50, 0.35);
+}
+
+button {
+    width: 100%;
+    background: linear-gradient(135deg, #7b1e24, #a62b32);
+    color: #fff5e6;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #5a1419, #7b1e24);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(166, 43, 50, 0.55);
+}
+
+.link {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #d9b08c;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.link a:hover {
+    color: #ffb4a2;
+}
